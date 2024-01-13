@@ -2183,6 +2183,40 @@ hr {
   background-position: center center;
   background-size: cover;
 }
+.main-text-container {
+  margin-left: 2px;
+  margin-bottom: 180px;
+}
+@media only screen and (max-width: 600px) {
+  .slider-area {
+    background-image: url(../img/wedding/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
+  .hero-overly::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 0%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+  }
+  .main-text-container {
+    margin-left: 2px;
+    margin-bottom: 100px;
+  }
+
+  /*  .hero__caption {
+    margin-top: 100px;
+  } */
+}
 .slider-area .hero__caption {
   overflow: hidden;
 }

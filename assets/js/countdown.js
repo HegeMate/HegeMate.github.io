@@ -1,5 +1,5 @@
 // Set the date for New Year's Day
-const newYearDate = new Date("January 1, 2024 00:00:00").getTime();
+const newYearDate = new Date("August 8, 2024 17:00:00").getTime();
 
 // Update the countdown every second
 const countdown = setInterval(() => {

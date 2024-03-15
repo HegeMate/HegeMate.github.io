@@ -1,4 +1,7 @@
 // Header Bottom
+.logo-holder {
+  height: 102px;
+}
 .main-header {
   // header smoll device padding
   @media #{$md} {
@@ -72,6 +75,7 @@
   }
   .logo {
     & img {
+      height: 102px !important;
     }
   }
 }

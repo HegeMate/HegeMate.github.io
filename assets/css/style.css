@@ -40,7 +40,7 @@
   color: #ff2828 !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Playfair Display", serif;
+  font-family: Arima;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -104,7 +104,7 @@
   opacity: 0.9;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Arima";
   font-weight: normal;
   font-style: normal;
 }
@@ -115,7 +115,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: Arima;
   color: #212121;
   margin-top: 0px;
   font-style: normal;
@@ -123,7 +123,7 @@ h6 {
   text-transform: normal;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Arima";
   color: #2e3c40;
   font-size: 16px;
   line-height: 30px;
@@ -329,7 +329,7 @@ hr {
   background: #ff3500;
 }
 .btn {
-  background: #ff2828;
+  background: #403f6f;
   text-transform: uppercase;
   color: #fff;
   font-size: 16px;
@@ -358,7 +358,7 @@ hr {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #da1b1b;
+  background: #ffdbe4;
   z-index: 1;
   border-radius: 5px;
   transition: transform 0.5s;
@@ -2037,7 +2037,7 @@ hr {
   text-transform: uppercase;
   display: block;
   font-size: 16px;
-  font-family: "Barlow", sans-serif;
+  font-family: Arima, sans-serif;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2154,7 +2154,7 @@ hr {
   }
 }
 .slider-height2 {
-  height: 500px;
+  height: 1200px;
   background-size: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2225,7 +2225,7 @@ hr {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
-  font-family: "Barlow", sans-serif;
+  font-family: Arima, sans-serif;
   position: relative;
   display: inline-block;
   padding-left: 10px;
@@ -2445,18 +2445,18 @@ hr {
   align-items: center;
 }
 .Our-story-area .story-caption .story-details {
-  padding-left: 150px;
+  padding-left: 15px;
   padding-right: 24px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .Our-story-area .story-caption .story-details {
-    padding-left: 121px;
+    padding-left: 15px;
     padding-right: 24px;
   }
 }
 @media (max-width: 575px) {
   .Our-story-area .story-caption .story-details {
-    padding-left: 94px;
+    padding-left: 15px;
     padding-right: 5px;
   }
 }
@@ -2483,8 +2483,8 @@ hr {
 }
 @media (max-width: 575px) {
   .Our-story-area .story-caption.background-img {
-    width: 291px;
-    height: 395px;
+    width: 366px;
+    height: 596px;
   }
 }
 .pricing-card-area .single-card {
@@ -2573,7 +2573,7 @@ hr {
   display: block;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Barlow", sans-serif;
+  font-family: Arima, sans-serif;
 }
 .count-down-area .count-down-wrapper .single-counter p {
   font-size: 18px;
@@ -2583,7 +2583,7 @@ hr {
   padding: 0;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Barlow", sans-serif;
+  font-family: Arima, sans-serif;
 }
 .gallery-area .single-gallery {
   overflow: hidden;
@@ -2653,6 +2653,11 @@ hr {
     font-size: 23px;
   }
 }
+@media (max-width: 575px) {
+  .gallery-area .single-gallery.gallery4holder {
+    display: none;
+  }
+}
 .gallery-area .single-gallery .thumb-content-box .thumb-content a {
   color: #fff;
   width: 30px;
@@ -2692,7 +2697,7 @@ hr {
   font-weight: 700;
   margin-bottom: 14px;
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: Arima, serif;
   line-height: 1.2;
   text-transform: capitalize;
   margin-bottom: 14px;
@@ -2915,11 +2920,15 @@ hr {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .submit-info {
+    display: flex;
+    justify-content: center;
     text-align: center;
   }
 }
 @media (max-width: 575px) {
   .submit-info {
+    display: flex;
+    justify-content: center;
     text-align: center;
   }
 }
@@ -2940,7 +2949,7 @@ hr {
 }
 .footer-area .footer-tittle h4 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Arima";
   font-size: 18px;
   margin-bottom: 38px;
   font-weight: 500;
@@ -4152,7 +4161,7 @@ hr {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Playfair Display", serif;
+  font-family: Arima, serif;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -4203,7 +4212,7 @@ hr {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Roboto", sans-serif;
+  font-family: Arima;
   font-weight: normal;
   width: 100% !important;
   line-height: 50px;

@@ -19,7 +19,7 @@ const countdown = setInterval(() => {
 
   // Display the countdown
   const countdownElement = document.getElementById("countdown");
-  countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  countdownElement.innerHTML = `${days}d${hours}h${minutes}m${seconds}s`;
 
   // If the countdown is over, display a message
 }, 1000);

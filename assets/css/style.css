@@ -1712,30 +1712,30 @@ hr {
 }
 .story-padding {
   padding-top: 0px;
-  padding-bottom: 150px;
+  padding-bottom: 0px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .story-padding {
     padding-top: 0px;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .story-padding {
     padding-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .story-padding {
     padding-top: 0px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 575px) {
   .story-padding {
     padding-top: 0px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 }
 .gift-padding {
